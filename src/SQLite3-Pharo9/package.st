@@ -1,1 +1,1 @@
-Package { #name : #'SQLite3-Pharo9' }
+Package { #name : 'SQLite3-Pharo9' }
