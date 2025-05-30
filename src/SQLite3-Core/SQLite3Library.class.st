@@ -706,11 +706,6 @@ SQLite3Library >> step: aStatementHandle [
 	^ self apiStep: aStatementHandle
 ]
 
-{ #category : 'accessing' }
-SQLite3Library >> stringFrom: aStatement at: aColumn [
-	^ self apiColumnText: aStatement atColumn: aColumn
-]
-
 { #category : 'testing' }
 SQLite3Library >> threadsafe [
 	"This method is deprecated so consider to migrate."
